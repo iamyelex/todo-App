@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bright-blue :hsl(220, 98%, 61%);
+    --check-background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+    /* Light Theme  */
+
+    --light-gray-1: hsl(0, 0%, 98%);
+    --light-grayish-blue: hsl(236, 33%, 92%);
+    --light-grayish-blue-1: hsl(233, 11%, 84%);
+    --dark-grayish-blue: hsl(236, 9%, 61%);
+    --dark-grayish-blue-2: hsl(235, 19%, 35%);
+
+    /* Dark Theme  */
+
+    --theme2-dark-blue: hsl(235, 21%, 11%);
+    --theme2-dark-desaturated-blue: hsl(235, 24%, 19%);
+    --theme2-light-grayish-blue: hsl(234, 39%, 85%);
+    --theme2-light-grayish-blue-2-hover: hsl(236, 33%, 92%);
+    --theme2-dark-grayish-blue: hsl(234, 11%, 52%);
+    --theme2-very-dark-grayish-blue: hsl(233, 14%, 35%);
+    --theme2-very-dark-grayish-blue-2: hsl(237, 14%, 26%);
+
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    background-image: url(./images/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.header-section{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+h1{
+    font-weight: 700;
+}
+h1>span{
+    color: white;
+    margin-right: 0.5rem;
+}
+
+input{
+    padding: 0.6rem 0;
+    /* padding-right: 50%; */
+}
+.to-do::placeholder{
+    padding-left: 1rem;
+    color: var(--theme2-light-grayish-blue);
+}
+#radio{
+    text-decoration: none;
+}
+input[type="radio"]{
+    transform: scale(1.7);
+    margin-left: 2rem;
+}
+input[type="radio"]:hover{
+   cursor: pointer;
+}
+.to-do{
+    border: none;
+}
+.to-do:focus{
+    outline: none;
+    padding-left: 1rem;
+}
+
+.to-do-list{
+    border: 1px solid var(--light-grayish-blue);
+    padding: 0.25rem 0;
+    border-radius: 4px;
+    display: flex;
+    width: 35%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    margin-top: 3rem;
+}
+
+main{
+    width: 35%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.list{
+    border: 1px solid var(--light-grayish-blue);
+    padding: 0.25rem 0;
+    /* border-radius: 4px; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* margin-bottom: 0.5px; */
+    /* background-color: white; */
+    /* position: relative; */
+    /* top: -2.5rem; */
+}
+
+.list-p{
+    padding: 0.6rem 0;
+    padding-left: 1.5rem;
+    color: var(--dark-grayish-blue-2);
+    margin-right: 12rem;
+}
+
+.main-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--light-grayish-blue);
+    padding: 0.25rem 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--dark-grayish-blue);
+    /* background-color: white; */
+    /* position: relative; */
+    /* top: -2.5rem; */
+}
+
+.f-1,.f-2,.f-3{
+    padding: 0.6rem 0;
+}
+
+.f-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 11px;
+    color: var(--dark-grayish-blue);
+    font-weight: 700;
+}
+
+.f-1{
+    width: 28%;
+}
+.f-2{
+    width: 33%;
+}
+.f-3{
+    width: 39%;
+    padding-left: 4rem;
+}
+
+.btn-1{
+    color: var(--bright-blue);
+}
+
+.hidden{
+    display: none;
+}
+
+.list:hover{
+    cursor: pointer;
+}
+
+.btn-theme{
+    border: none;
+    background-color: transparent;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+
+/* Theme  */
+.bg-color{
+    background-color: var(--theme2-dark-blue);
+}
+
+.main-bg-color{
+    background-color: var(--theme2-dark-desaturated-blue);
+}
+
+.text{
+    color: var(--theme2-light-grayish-blue);
+}
+
+.border{
+    border: 1px solid var(--theme2-very-dark-grayish-blue-2);
+}
+
+.bg-image{
+    background-image: url(./images/bg-desktop-dark.jpg);
+}
+
+.to-do-2::placeholder{
+    color: var(--theme2-very-dark-grayish-blue); 
+} 
+
+#radio-list{
+    color: purple;
+}
