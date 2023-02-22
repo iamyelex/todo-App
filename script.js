@@ -49,7 +49,7 @@ radioBtn.addEventListener("click", function () {
   toDo.value = "";
   toDoNum.textContent++;
   
-  dispalyCross();
+  // dispalyCross();
 });
 
 // Showing and hiding the delete cross btn
