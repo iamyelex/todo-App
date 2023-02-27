@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media screen and (max-width: 375px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bright-blue :hsl(220, 98%, 61%);
+    --check-background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+    /* Light Theme  */
+
+    --light-gray-1: hsl(0, 0%, 98%);
+    --light-grayish-blue: hsl(236, 33%, 92%);
+    --light-grayish-blue-1: hsl(233, 11%, 84%);
+    --dark-grayish-blue: hsl(236, 9%, 61%);
+    --dark-grayish-blue-2: hsl(235, 19%, 35%);
+
+    /* Dark Theme  */
+
+    --theme2-dark-blue: hsl(235, 21%, 11%);
+    --theme2-dark-desaturated-blue: hsl(235, 24%, 19%);
+    --theme2-light-grayish-blue: hsl(234, 39%, 85%);
+    --theme2-light-grayish-blue-2-hover: hsl(236, 33%, 92%);
+    --theme2-dark-grayish-blue: hsl(234, 11%, 52%);
+    --theme2-very-dark-grayish-blue: hsl(233, 14%, 35%);
+    --theme2-very-dark-grayish-blue-2: hsl(237, 14%, 26%);
+
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    height: 200px;
+    padding: 0 1rem;
+}
+
+.header-section{
+    width: 100%;
+    padding-top: 3rem;
+}
+
+input[type="radio"]{
+    margin-left: 1rem;
+}
+
+.to-do-list{
+    border: 1px solid var(--light-grayish-blue);
+    padding: 0.25rem 0;
+    border-radius: 4px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    margin-top: 3rem;
+}
+
+main{
+    width: 100%;
+}
+
+.list{
+    margin: 0 1rem;
+}
+
+.list-p{
+    padding-left: 1rem;
+    margin-right: 0rem;
+}
+
+.main-f{
+    display: none;
+}
+
+.mobile-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--light-grayish-blue);
+    padding: 0.25rem 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--dark-grayish-blue);
+    margin: 0 1rem;
+}
+
+.mf-1,.mf-2,.mf-3{
+    padding: 0.6rem 0;
+}
+
+.mobile-f2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--light-grayish-blue);
+    padding: 1rem 0rem;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--dark-grayish-blue);
+    margin: 1rem;
+}
+
+}
