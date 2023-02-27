@@ -190,6 +190,16 @@ main{
     text-decoration: line-through;
 }
 
+.task{
+    padding: 0.6rem 0;
+    color: var(--dark-grayish-blue-2);
+    text-align: center;
+}
+
+.mobile-f, .mobile-f2{
+    display: none;
+}
+
 
 /* Theme  */
 .bg-color{
@@ -216,6 +226,6 @@ main{
     color: var(--theme2-very-dark-grayish-blue); 
 } 
 
-#radio-list{
+/* #radio-list{
     color: purple;
-}
+} */
