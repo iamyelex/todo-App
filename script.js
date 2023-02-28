@@ -223,3 +223,18 @@ theme.addEventListener("click", function () {
   toDo.classList.toggle("to-do-2");
   mainF.classList.toggle("border");
 });
+
+
+
+const clickMe =  document.querySelector(".click-btn")
+
+clickMe.addEventListener("click",function(){
+  const closest = clickMe.closest(".click-me");
+  if (closest) {
+    console.log(closest);
+    closest.classList.add("click-me-color")
+    setInterval(() => {
+      closest.classList.remove("click-me-color")
+    }, 200);
+  }
+})
